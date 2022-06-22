@@ -1,11 +1,12 @@
-
+@extends('web.layout.app')
+@section('content')
 
 <body>
 
     <!-- Main wrapper -->
     <div id="wrapper" class="wrapper">
         <!-- Header -->
-        
+
         <!-- Header -->
         <!-- Start Bradcaump area -->
         <div id="bread__image" class="ht__bradcaump__area">
@@ -48,7 +49,7 @@
                     </div>
                     <div class="col-lg-6 col-md-6 col-sm-12 col-12 sm__mt--40 md__mt--40">
                         <div class="wallet__thumb">
-                            <img src="images/about/wallet.png" alt="wallet images">
+                            <img src="{{asset('data/images/about/wallet.png')}}" alt="wallet images">
                         </div>
                     </div>
                 </div>
@@ -74,7 +75,7 @@
                     <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
                         <div class="feature bg--1">
                             <div class="icon">
-                                <img src="images/service/icon/10.png" alt="service icon">
+                                <img src="{{asset('data/images/service/icon/10.png')}}" alt="service icon">
                             </div>
                             <div class="content">
                                 <h2>First Access</h2>
@@ -87,7 +88,7 @@
                     <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
                         <div class="feature bg--2">
                             <div class="icon">
-                                <img src="images/service/icon/11.png" alt="service icon">
+                                <img src="{{asset('data/images/service/icon/11.png')}}" alt="service icon">
                             </div>
                             <div class="content">
                                 <h2>Speed Transfer</h2>
@@ -113,7 +114,7 @@
                     <div class="col-lg-4 col-xl-3 col-md-6 col-sm-6 col-12">
                         <div class="feature bg--4">
                             <div class="icon">
-                                <img src="images/service/icon/13.png" alt="service icon">
+                                <img src="{{asset('data/images/service/icon/13.png')}}" alt="service icon">
                             </div>
                             <div class="content">
                                 <h2>Reliable</h2>
@@ -173,7 +174,7 @@
                         </div>
                     </div>
                     <div class="images-2">
-                        <img src="images/about/wallet-2.png" alt="wallet images">
+                        <img src="{{asset('data/images/about/wallet-2.png')}}" alt="wallet images">
                     </div>
                 </div>
             </div>
@@ -191,22 +192,22 @@
                             <ul class="avilable__device">
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/4.png" alt="images">
+                                        <img src="{{asset('data/images/icons/4.png')}}" alt="images">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/5.png" alt="images">
+                                        <img src="{{asset('data/images/icons/5.png')}}" alt="images">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/6.png" alt="images">
+                                        <img src="{{asset('data/images/icons/6.png')}}" alt="images">
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#">
-                                        <img src="images/icons/7.png" alt="images">
+                                        <img src="{{asset('data/images/icons/7.png')}}" alt="images">
                                     </a>
                                 </li>
                             </ul>
@@ -232,7 +233,7 @@
                         <article class="blog__2">
                             <div class="thumb">
                                 <a href="blog-details.html">
-                                    <img src="images/blog/md-img/3.jpg" alt="">
+                                    <img src="{{asset('data/images/blog/md-img/3.jpg')}}" alt="">
                                 </a>
                             </div>
                             <div class="content">
@@ -254,7 +255,7 @@
                         <article class="blog__2">
                             <div class="thumb">
                                 <a href="blog-details.html">
-                                    <img src="images/blog/md-img/4.jpg" alt="">
+                                    <img src="{{asset('data/images/blog/md-img/4.jpg')}}" alt="">
                                 </a>
                             </div>
                             <div class="content">
@@ -276,7 +277,7 @@
                         <article class="blog__2">
                             <div class="thumb">
                                 <a href="blog-details.html">
-                                    <img src="images/blog/md-img/5.jpg" alt="">
+                                    <img src="{{asset('data/images/blog/md-img/5.jpg')}}" alt="">
                                 </a>
                             </div>
                             <div class="content">
@@ -313,5 +314,8 @@
 </body>
 
 
-<!-- Mirrored from try.htmldemo.net/dgtaka/wallet.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jun 2022 13:10:01 GMT -->
+
 </html>
+
+
+@endsection

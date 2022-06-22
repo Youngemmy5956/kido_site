@@ -1,4 +1,5 @@
-
+@extends('web.layout.app')
+@section('content')
 
 <body>
 	<!-- Main wrapper -->
@@ -33,7 +34,7 @@
 				<div class="row">
 					<div class="col-lg-12">
 						<div class="tm__title text-center">
-							<img src="images/team/title/1.png" alt="title images">
+							<img src="{{asset('data/images/team/title/1.png" alt="title images')}}">
 							<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature
 								from 45 BC, making it over 2000 years old.</p>
 						</div>
@@ -46,7 +47,7 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="images/team/md-img/1.jpg" alt="team images">
+										<img src="{{asset('data/images/team/md-img/1.jpg')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
@@ -85,7 +86,7 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="images/team/md-img/2.jpg" alt="team images">
+										<img src="{{asset('data/images/team/md-img/2.jpg')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
@@ -124,7 +125,7 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="images/team/md-img/3.jpg" alt="team images">
+										<img src="{{asset('data/images/team/md-img/3.jpg')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
@@ -163,7 +164,7 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="images/team/md-img/4.jpg" alt="team images">
+										<img src="{{asset('data/images/team/md-img/4.jpg')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
@@ -202,7 +203,7 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="images/team/md-img/5.jpg" alt="team images">
+										<img src="{{asset('data/images/team/md-img/5.jpg')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
@@ -241,7 +242,7 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="images/team/md-img/6.jpg" alt="team images">
+										<img src="{{asset('data/images/team/md-img/6.jpg')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
@@ -296,5 +297,8 @@
 </body>
 
 
-<!-- Mirrored from try.htmldemo.net/dgtaka/team.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jun 2022 13:09:59 GMT -->
+
 </html>
+
+
+@endsection

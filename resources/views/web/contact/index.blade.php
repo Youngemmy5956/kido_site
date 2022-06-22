@@ -1,10 +1,11 @@
-
+@extends("web.layout.app")
+@section("content")
 
 <body>
     <!-- Main wrapper -->
     <div id="wrapper" class="wrapper">
         <!-- Header -->
-        @include('web.layout.includes.header')
+
         <!-- Header -->
         <!-- Start Bradcaump area -->
         <div id="bread__image" class="ht__bradcaump__area">
@@ -33,7 +34,7 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="contact__title">
-                            <img src="images/about/contact.png" alt="conatct images">
+                            <img src="{{asset('data/images/about/contact.png')}}" alt="conatct images">
                             <h2>Get Dgtaka where you need !</h2>
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                                 labore et dolore magna aliqua. enim ad minim veniam, quis nostrud exercitation ullamco laboris
@@ -93,7 +94,7 @@
             <!-- Start Banner Area -->
 
             <!-- End Banner Area -->
-            
+
             <!-- Footer Area -->
 
             <!-- Footer Area -->
@@ -168,9 +169,12 @@
     </script>
 
 
-    <script src="js/active.js"></script>
+    <script src="{{asset('data/js/active.js')}}"></script>
 </body>
 
 
-<!-- Mirrored from try.htmldemo.net/dgtaka/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jun 2022 13:10:02 GMT -->
+
 </html>
+
+
+@endsection

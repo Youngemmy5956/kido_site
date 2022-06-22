@@ -1,4 +1,6 @@
 
+@extends("web.layout.app")
+@section('content')
 <body>
     <!-- Main wrapper -->
     <div id="wrapper" class="wrapper">
@@ -64,19 +66,19 @@
 
                             <div class="sin__market__item tab-pane fade" id="day" role="tabpanel">
                                 <div class="market__chart__map">
-                                    <img src="images/about/cart1.png" alt="chart images">
+                                    <img src="{{asset('data/images/about/cart1.png')}}" alt="chart images">
                                 </div>
                             </div>
 
                             <div class="sin__market__item tab-pane fade show active" id="week" role="tabpanel">
                                 <div class="market__chart__map">
-                                    <img src="images/about/cart1.png" alt="chart images">
+                                    <img src="{{asset('data/images/about/cart1.png')}}" alt="chart images">
                                 </div>
                             </div>
 
                             <div class="sin__market__item tab-pane fade" id="month" role="tabpanel">
                                 <div class="market__chart__map">
-                                    <img src="images/about/cart1.png" alt="chart images">
+                                    <img src="{{asset('data/images/about/cart1.png')}}" alt="chart images">
                                 </div>
                             </div>
 
@@ -267,7 +269,7 @@
                             </p>
                             <div class="play__video">
                                 <a class="play__btn" href="https://www.youtube.com/watch?v=2X9eJF1nLiY">
-                                    <img src="images/about/play.png" alt="play icon">Play Now</a>
+                                    <img src="{{asset('data/images/about/play.png')}}" alt="play icon">Play Now</a>
                             </div>
                         </div>
                     </div>
@@ -282,7 +284,7 @@
                     <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                         <div class="service__chart">
                             <div class="thumb">
-                                <img src="images/about/service.png" alt="chart">
+                                <img src="{{asset('data/images/about/service.png')}}" alt="chart">
                             </div>
                         </div>
                     </div>
@@ -308,23 +310,7 @@
             <!-- Start Banner Area -->
 
             <!-- End Banner Area -->
-            <div class="newsletter__area">
-                <div class="container space-between">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="newsletter__container">
-                                <div class="newsletter__inner">
-                                    <h2>Subscribe for latest updates</h2>
-                                    <div class="input__box">
-                                        <input type="email" placeholder="Enter your mail.">
-                                        <button class="submit__btn">Subscribe</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <!-- Footer Area -->
 
         <!-- End Footer Area -->
@@ -335,5 +321,7 @@
 </body>
 
 
-<!-- Mirrored from try.htmldemo.net/dgtaka/about-bitcoin.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jun 2022 13:09:56 GMT -->
+
 </html>
+
+@endsection

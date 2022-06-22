@@ -1,8 +1,11 @@
+@extends("web.layout.app")
+@section("content")
+
 <body>
     <!-- Main wrapper -->
     <div id="wrapper" class="wrapper">
         <!-- Header -->
-       
+
         <!-- Header -->
         <!-- Start Bradcaump area -->
         <div id="bread__image" class="ht__bradcaump__area">
@@ -42,7 +45,7 @@
                     </div>
                     <div class="col-lg-5 col-12 col-sm-12 col-md-12 sm__mt--40 md__mt--40">
                         <div class="dg__secure__thumb">
-                            <img src="images/about/6.png" alt="secure images">
+                            <img src="{{asset('data/images/about/6.png')}}" alt="secure images">
                         </div>
                     </div>
                 </div>
@@ -62,7 +65,7 @@
                                 look even slightly believable</p>
                             <div class="play__video">
                                 <a class="play__btn" href="https://www.youtube.com/watch?v=2X9eJF1nLiY"><img
-                                        src="images/about/play.png" alt="play icon">Play Now</a>
+                                        src="{{asset('data/images/about/play.png')}}" alt="play icon">Play Now</a>
                             </div>
                         </div>
                     </div>
@@ -77,7 +80,7 @@
                     <div class="col-lg-5 col-md-12 col-sm-12 col-12">
                         <div class="service__chart">
                             <div class="thumb">
-                                <img src="images/about/service.png" alt="chart">
+                                <img src="{{asset('data/images/about/service.png')}}" alt="chart">
                             </div>
                         </div>
                     </div>
@@ -105,23 +108,7 @@
             <!-- Start Banner Area -->
 
             <!-- End Banner Area -->
-            <div class="newsletter__area">
-                <div class="container space-between">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="newsletter__container">
-                                <div class="newsletter__inner">
-                                    <h2>Subscribe for latest updates</h2>
-                                    <div class="input__box">
-                                        <input type="email" placeholder="Enter your mail.">
-                                        <button class="submit__btn">Subscribe</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <!-- Footer Area -->
 
             <!-- Footer Area -->
@@ -133,6 +120,8 @@
     <!-- JS Files -->
 </body>
 
-<!-- Mirrored from try.htmldemo.net/dgtaka/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 18 Jun 2022 13:07:10 GMT -->
+
 
 </html>
+
+@endsection
