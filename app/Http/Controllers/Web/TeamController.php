@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class TeamController extends Controller
 {
     //
-    public function contact()
+    public function team()
     {
         return view("web.team.index");
     }

@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class WalletController extends Controller
 {
     //
-    public function contact()
+    public function wallet()
     {
         return view("web.wallet.index");
     }

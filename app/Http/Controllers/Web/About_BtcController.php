@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class AboutBtcController extends Controller
 {
     //
-    public function contact()
+    public function about_btc()
     {
         return view("web.about_btc.index");
     }

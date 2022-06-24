@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-lg-2 col-xl-2 col-sm-6 col-12">
                 <div class="logo">
-                    <a href="index.html">
+                    <a href="{{route("web.home")}}">
                         <img src="{{asset('data/images/logo/ki4.png')}}" alt="logo images">
                     </a>
                 </div>
@@ -29,7 +29,7 @@
                             </ul>
                         </li>
                         <li>
-                            <a href="about.html">About Us</a>
+                            <a href="{{route("web.about")}}">About Us</a>
                         </li>
                         <li class="drop">
                             <a href="{{route("web.service")}}">Service</a>
@@ -61,9 +61,9 @@
                         </li> --}}
                         <li class="drop">
                             <a href="{{route("web.team")}}">team</a>
-                            <li>
+                            {{-- <li>
                                 <a href="{{route("web.about_btc")}}">About Coin</a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="{{route("web.wallet")}}">Wallet Page</a>
                             </li>
@@ -167,9 +167,9 @@
                     </li> --}}
                     <li>
                         <a href="{{route("web.team")}}">Team</a>
-                        <li>
+                        {{-- <li>
                             <a href="{{route("web.about_btc")}}">About Coin</a>
-                        </li>
+                        </li> --}}
                         <li>
                             <a href="{{route("web.wallet")}}">Wallet Page</a>
                         </li>
