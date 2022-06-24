@@ -47,14 +47,14 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="{{asset('data/images/team/md-img/1.jpg')}}" alt="team images">
+										<img src="{{asset('data/images/team/md-img/ki9.JPG')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
 									<h4>
 										<a href="#">Khairul Bashar Arif</a>
 									</h4>
-									<p>CEO</p>
+									<p>Founder/C.E.O</p>
 									<ul class="team__share d-flex justify-content-center">
 										<li>
 											<a href="#">
@@ -86,14 +86,14 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="{{asset('data/images/team/md-img/2.jpg')}}" alt="team images">
+										<img src="{{asset('data/images/team/md-img/ki7.JPG')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
 									<h4>
 										<a href="#">Virginia Perry</a>
 									</h4>
-									<p>Coo</p>
+									<p>Head of Marketing</p>
 									<ul class="team__share d-flex justify-content-center">
 										<li>
 											<a href="#">
@@ -125,14 +125,14 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="{{asset('data/images/team/md-img/3.jpg')}}" alt="team images">
+										<img src="{{asset('data/images/team/md-img/ki5.JPG')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
 									<h4>
 										<a href="#">Alice Herrera</a>
 									</h4>
-									<p>Cto</p>
+									<p>Chief Technology Officer</p>
 									<ul class="team__share d-flex justify-content-center">
 										<li>
 											<a href="#">
@@ -164,14 +164,14 @@
 							<div class="team">
 								<div class="thumb">
 									<a href="#">
-										<img src="{{asset('data/images/team/md-img/4.jpg')}}" alt="team images">
+										<img src="{{asset('data/images/team/md-img/ki8.JPG')}}" alt="team images">
 									</a>
 								</div>
 								<div class="team__content">
 									<h4>
 										<a href="#">Raymond Stephens</a>
 									</h4>
-									<p>Developer</p>
+									<p>Coo-Chief Operating Officer</p>
 									<ul class="team__share d-flex justify-content-center">
 										<li>
 											<a href="#">
@@ -210,7 +210,7 @@
 									<h4>
 										<a href="#">Christopher Bowman</a>
 									</h4>
-									<p>CEO</p>
+									<p>Chief Human Resources Officer</p>
 									<ul class="team__share d-flex justify-content-center">
 										<li>
 											<a href="#">
