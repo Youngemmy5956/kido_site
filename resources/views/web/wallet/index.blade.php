@@ -59,8 +59,7 @@
                     <div class="col-lg-12">
                         <div class="section__title--6">
                             <h2>What is our wallet features</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                                the industry's standard dummy text</p>
+                            <p>The following are the features you benefit from investing with us.</p>
                         </div>
                     </div>
                 </div>
