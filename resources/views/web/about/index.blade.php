@@ -84,16 +84,8 @@
                     <div class="col-lg-7 col-xl-6 offset-xl-1 col-md-12 col-sm-12 col-12 sm__mt--40 md__mt--40">
                         <div class="service__inner">
                             <h3 class="section__title--4">Best Services from us.</h3>
-                            <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque
-                                laudantium, totam aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                sit aspernatur.</p>
-                            <p>Sed ut perspiciatis unde omnis iste natus error voluptatem accusantium doloremque
-                                laudantium, totam aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas
-                                sit aspernatur. There are many variations passages Lorem Ipsum available, but the
-                                majority have suffered alteration in some form, by injected humour, or randomised words
-                                which don't look even slightly believable.</p>
+                            <p>The main activity of our company is arbitration in the cryptocurrency market. We buy a cryptocurrency asset on a exchange with a minimum price and sell it on another exchange at a high price, making profit from the difference between prices. Having a deposit on most major cryptocurrency exchanges, we are given the opportunity to choose the most advantageous offers for buying and selling cryptocurrencies. KOINBETTER.COM We have developed special software - Matic Engine™, which performs such an operation in an automatic mode in a second, so we bypass the volatility risk inherent in cryptocurrencies. It is practically not possible for one trader to have active deposits on the maximum number of exchanges in order to choose the most favorable price conditions. etrades-fx.net, thanks to local partners around the world, has accounts in various cryptocurrency exchanges. We are constantly adding new exchanges, attracting new local partners.</p>
+                            <p></p>
                         </div>
                     </div>
                 </div>
