@@ -36,12 +36,8 @@
                     <div class="col-lg-7 col-md-12 col-sm-12 col-12">
                         <div class="dg__secure__inner">
                             <h3 class="section__title--4">World Best Cryptocurrency</h3>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even slightly
-                                believable. </p>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                                alteration in some form, by injected humour, or randomised words which don't look even slightly
-                                believable.
+                            <p>Our investment platform is a product of careful preparation and fruitful work of experts in the field of Bitcoin mining, highly profitable trade in cryptocurrencies and online marketing. Using modern methods of doing business and a personal approach to each client, we offer a unique investment model to people who want to use Bitcoin not only as a method of payment, but also as a reliable source of stable income. KOINBETTER  uses only modern mining equipment and trades at the most stable markets, which minimizes the risk of financial loss to customers and guarantees them a stable income accrued every calendar day.</p>
+                            <p>
                             </p>
                         </div>
                     </div>
