@@ -57,8 +57,7 @@
                     <div class="col-lg-12">
                         <div class="section__title--6">
                             <h2>Our Services</h2>
-                            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some
-								form, by injected humour.</p>
+                            <p>KOINBETTER a cryptocurrency partners which has been I identified with the test of time, thoroughly over the past 5 years and they are the most dynamically developing institutional firm in the cryptocurrency assets, the firm taking it stand as a mandate before 2025,to become the next global giant in the circulation market.</p>
                         </div>
                     </div>
                 </div>
